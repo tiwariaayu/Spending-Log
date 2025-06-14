@@ -1,5 +1,5 @@
 import React from 'react'
-import {LuTrendingUpDown, LuPiggyBank, LuWallet, LuTrendingUp} from "react-icons/lu";
+import { LuTrendingUpDown, LuPiggyBank, LuWallet, LuTrendingUp } from "react-icons/lu";
 
 const AuthLayout = ({ children }) => {
   return (
@@ -53,10 +53,10 @@ const AuthLayout = ({ children }) => {
 
       {/* Right side - Form */}
       <div className="w-full md:w-[40%] px-8 md:px-12 pt-8 pb-12 relative">
-         <h2 className="text-3xl font-bold text-indigo-900 mb-8">Expense Tracker</h2>
+        <h2 className="text-3xl font-bold text-indigo-900 mb-8">Expense Tracker</h2>
         {/* Background Pattern */}
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZWdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAzNGMwIDIuMjA5LTEuNzkxIDQtNCA0cy00LTEuNzkxLTQtNCAxLjc5MS00IDQtNCA0IDEuNzkxIDQgNHoiIGZpbGw9IiM0ZjQ2ZTUiIGZpbGwtb3BhY2l0eT0iLjA1Ii8+PC9nPjwvc3ZnPg==')] opacity-50"></div>
-        
+
         {/* Content */}
         <div className="relative z-10 max-w-md mx-auto">
           {children}
@@ -72,7 +72,7 @@ const StatsInfocard = ({ icon, label, value, color }) => {
   return <div className="flex gap-6 bg-white/10 backdrop-blur-sm p-4 rounded-xl shadow-md shadow-black/5 border border-white/20 z-10">
     <div
       className={`w-12 h-12 flex items-center justify-center text-[26px] text-white ${color} rounded-full drop-shadow-xl`}
-      >
+    >
       {icon}
     </div>
     <div>

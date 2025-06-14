@@ -1,13 +1,9 @@
-import React, { createContext , useState} from "react";
+import React, { createContext, useState } from "react";
 
 export const UserContext = createContext();
 
 
-
-
-
-
-const UserProvider= ({ children}) => {
+const UserProvider = ({ children }) => {
     const [user, setUser] = useState(null);
 
     // Function to update user data 
@@ -17,22 +13,22 @@ const UserProvider= ({ children}) => {
     };
 
     //Function to clear user data (e.g., on logout )
-    const clearUser =() => {
+    const clearUser = () => {
         setUser(null);
     };
 
     return (
-        <UserContext.Provider 
+        <UserContext.Provider
             value={{
                 user,
                 updateUser,
                 clearUser,
             }}
         >
-            
-                { children }
+
+            {children}
         </UserContext.Provider>
-        );
+    );
 }
 
 export default UserProvider;
