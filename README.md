@@ -1,3 +1,9 @@
+
+<img width="1920" height="1080" alt="Screenshot 2025-05-24 130348" src="h<img width="1920" height="1080" alt="Screenshot 2025-05-24 130418" src="https://github.com/user-attachments/assets/c5300df2-83bb-431e-8e0f-c699fe3ac4cc" />
+ttps://github.com/user-attachments/assets/bd78490f-4806-4c54-b81d-03354c9d9430" />
+<img width="1920" height="1080" alt="Screenshot 2025-05-24 130448" src="https://github.com/user-attachments/assets/b08dbb00-5d91-4014-bcd3-c68e4454c5c2" />
+<img width="1920" height="1080" alt="Screenshot 2025-05-24 130448" src="https://github.com/user-attachments/assets/ed28b8c8-e58d-47ca-93ca-9551465b2abe" />
+
 # Expense Tracker
 
 A modern and feature-rich expense tracking application built with React, Vite, and Tailwind CSS.
@@ -113,3 +119,4 @@ frontend/expense-tracker/
 │   └── utils/
 └── public/
 ``` 
+
